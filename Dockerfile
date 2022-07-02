@@ -1,5 +1,5 @@
 FROM python:latest
-FROM python:2.7.13-slim
+FROM python:2.7.18-slim
 COPY . /hello-world
 WORKDIR /hello-world
 RUN apt update
