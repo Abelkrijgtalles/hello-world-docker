@@ -22,6 +22,7 @@ To build and upload the image, type:
 ``
 
 ## Working languages (Layout: Name `How to run`)
+If some of them don't work, please open an issue
 * Blender `python3 b/Blender.py`
 * Bottle `python3 b/Bottle.py`
 * CherryPy `python3 c/CherryPy.py`
