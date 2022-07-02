@@ -1,7 +1,7 @@
 FROM python:latest
-FROM python:2.7.13-onbuild
-COPY . .
-RUN apt update && apt upgrade -y
-RUN mv lib/pyrequirements.txt lib/requirements.txt
-RUN pip3 install -r ./lib/pyrequirements.txt
+FROM python:2.7.13-slim
+COPY . /hello-world
+WORKDIR /hello-world
+RUN apt update
+RUN pip3 install -r ./lib/requirements.txt
 RUN apt install python3-tk -y
