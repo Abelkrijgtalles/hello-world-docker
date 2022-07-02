@@ -26,4 +26,4 @@ jobs:
         run: docker buildx create --use && docker buildx inspect --bootstrap
       
       - name: Build && Push image
-        run: docker buildx build --platform linux/amd64,linux/amd64/v2,linux/arm64,linux/ppc64le,linux/s390x,linux/arm/v7 -t abelkrijgtalles/hello-world:latest --push .
+        run: docker buildx build --platform linux/amd64,linux/amd64/v2,linux/ppc64le,linux/s390x,linux/arm/v7 -t abelkrijgtalles/hello-world:latest --push .
