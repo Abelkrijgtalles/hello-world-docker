@@ -1,0 +1,12 @@
+wx
+pygame
+pyside2
+pyqt5
+pyqt4
+manim
+kivy
+flask
+fastapi
+django
+cherrypy
+bottle

@@ -21,7 +21,25 @@ To build and upload the image, type:
 
 ``
 
-## Working languages
+## Working languages (Layout: Name `How to run`)
+* Blender `python3 b/Blender.py`
+* Bottle `python3 b/Bottle.py`
+* CherryPy `python3 c/CherryPy.py`
+* Django `python3 d/Django.py`
+* FastAPI `python3 f/FastAPI.py`
+* Flask `python3 f/Flask.py`
+* HTTP `python3 h/HTTP.py`
+* Kivy `python3 k/Kivy.py`
+* Libavg `python3 l/libavg.py`
+* Manim `python3 m/Manim.py`
+* PyQt4 `python3 p/PyQt4.py`
+* PyQt5 `python3 p/PyQt5.py`
+* PySide2 `python3 p/PySide2.py`
+* PySimpleGui `python3 p/PySimpleGui.py`
+* Pygame `python3 p/Pygame.py`
+* Python 2 `python2 p/Python 2.py`
+* Python 3 `python3 p/Python 3.py`
+* Tkinter `python3 t/Tkinter.py`
 
 <!--Languages start-->
 ## Languages (933 total)
