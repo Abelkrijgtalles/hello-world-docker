@@ -1,6 +1,6 @@
 FROM python:latest
 FROM python:2.7.18-slim
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 COPY . /hello-world
 WORKDIR /hello-world
 RUN apt-get clean
